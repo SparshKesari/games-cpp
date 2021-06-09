@@ -16,6 +16,13 @@ void Draw()
 	}
 }
 
+void TogglePlayer()
+{
+	if (player == 'X')
+		player = 'O';
+	else
+		player = 'X';
+}
 int main()
 {
 	Draw();
